@@ -6,7 +6,7 @@ Automatically completes Discord Quests the moment you accept them — no buttons
 > You still need to manually accept a quest from the Quests page. QuestPilot takes over from there.
 
 > Original script by [Amia](https://github.com/aamiaa) — [Complete Recent Discord Quest](https://gist.github.com/aamiaa/204cd9d42013ded9faf646fae7f89fbb)  
-> Extended and maintained as a browser extension by [TANK](https://github.com/TANK)
+> Extended and maintained as a browser extension by [TANK](https://github.com/TANK-49)
 
 ---
 
