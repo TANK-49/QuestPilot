@@ -15,8 +15,8 @@ Automatically completes Discord Quests the moment you accept them — no buttons
 Once installed, the extension runs silently in the background. Navigate to your Quests page, accept a quest, and it handles the rest automatically.
 
 Supported quest types:
-- Watch Video / Watch Video on Mobile
-- Play on Desktop
+- Watch Video on Desktop / Mobile
+- Play on Desktop / PlayStation / Xbox
 - Stream on Desktop
 
 ---
