@@ -56,8 +56,8 @@ Supported quest types:
 > **iOS is NOT supported.** This extension requires a Chromium-based browser with extension support.
 
 > [!WARNING]
-> For **Stream on Desktop** quests, you need at least one other person in the voice channel or the quest won't progress.
-> **Achievement in Activity** `(ACHIEVEMENT_IN_ACTIVITY)` quests are NOT supported. These quests require completing specific in-game tasks within a Discord Activity and cannot be automated by this tool.
+> - For **Stream on Desktop** quests, you need at least one other person in the voice channel or the quest won't progress.
+> - **Achievement in Activity** `(ACHIEVEMENT_IN_ACTIVITY)` quests are NOT supported. These quests require completing specific in-game tasks within a Discord Activity and cannot be automated by this tool.
 
 > [!CAUTION]
 > Using automation tools may violate Discord's Terms of Service. Use this at your own risk.
