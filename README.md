@@ -26,7 +26,7 @@ Supported quest types:
 
 ### For Android (Mobile)
 
-1. Download and install Kiwi Browser from the Play Store or [GitHub](https://github.com/kiwibrowser/src.next/releases).
+1. Download and install Kiwi Browser from the [APKMirror](https://www.apkmirror.com/apk/geometry-ou/kiwi-browser-fast-quiet/) or [GitHub](https://github.com/kiwibrowser/src.next/releases).
 2. Download this repository as a `.zip` file.
 3. Open Kiwi Browser and navigate to `kiwi://extensions`.
 4. Enable Developer Mode.
