@@ -1,20 +1,22 @@
 {
     "manifest_version": 3,
     "name": "QuestPilot",
-    "version": "2.2.0",
-    "description": "Automatically completes Discord Quests the moment you accept them — no buttons, no babysitting.",
+    "version": "4.9",
+    "description": "Automatically completes Discord Quests the moment you accept them TANK49 - tank49.tech",
     "permissions": [
         "declarativeNetRequestWithHostAccess",
         "scripting",
-        "activeTab"
+        "storage"
     ],
     "host_permissions": [
         "https://discord.com/*",
         "https://canary.discord.com/*",
-        "https://ptb.discord.com/*"
+        "https://ptb.discord.com/*",
+        "https://*.discordsays.com/*",
+        "https://qp.tank49.tech/*"
     ],
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "sw.js"
     },
     "content_scripts": [
         {
@@ -24,7 +26,7 @@
                 "https://ptb.discord.com/*"
             ],
             "js": [
-                "quest-home.js"
+                "cs.js"
             ],
             "run_at": "document_idle"
         }
@@ -34,7 +36,7 @@
             {
                 "id": "ruleset_1",
                 "enabled": true,
-                "path": "rules.json"
+                "path": "rr.json"
             }
         ]
     }
