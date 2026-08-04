@@ -249,4 +249,4 @@ For a full hands-off experience with visual progress tracking and Unlimited spee
 * **[TANK](https://tank49.tech/)** — QuestPilot architecture, UI dashboard & extension maintenance.
 
 * **[Amia](https://github.com/aamiaa)** — Original quest automation concept & script logic.
-* **[Etorix](https://github.com/EtorixDev/)** - Achievement in Activity automation logic.
+* **[Etorix](https://github.com/EtorixDev/)** — Achievement in Activity automation logic.
