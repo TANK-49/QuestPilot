@@ -1,43 +1,49 @@
 {
-    "manifest_version": 3,
-    "name": "QuestPilot",
-    "version": "4.9",
-    "description": "Automatically completes Discord Quests the moment you accept them TANK49 - tank49.tech",
-    "permissions": [
-        "declarativeNetRequestWithHostAccess",
-        "scripting",
-        "storage"
-    ],
-    "host_permissions": [
+  "manifest_version": 3,
+  "name": "QuestPilot",
+  "version": "5.0",
+  "description": "Automatically completes Discord Quests the moment you accept them TANK49 - tank49.tech",
+  "permissions": [
+    "declarativeNetRequestWithHostAccess",
+    "scripting",
+    "storage",
+    "notifications",
+    "offscreen"
+  ],
+  "host_permissions": [
+    "https://discord.com/*",
+    "https://canary.discord.com/*",
+    "https://ptb.discord.com/*",
+    "https://*.discordsays.com/*",
+    "https://qp.tank49.tech/*"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
         "https://discord.com/*",
         "https://canary.discord.com/*",
-        "https://ptb.discord.com/*",
-        "https://*.discordsays.com/*",
-        "https://qp.tank49.tech/*"
-    ],
-    "background": {
-        "service_worker": "sw.js"
-    },
-    "content_scripts": [
-        {
-            "matches": [
-                "https://discord.com/*",
-                "https://canary.discord.com/*",
-                "https://ptb.discord.com/*"
-            ],
-            "js": [
-                "cs.js"
-            ],
-            "run_at": "document_idle"
-        }
-    ],
-    "declarative_net_request": {
-        "rule_resources": [
-            {
-                "id": "ruleset_1",
-                "enabled": true,
-                "path": "rr.json"
-            }
-        ]
+        "https://ptb.discord.com/*"
+      ],
+      "js": ["cs.js"],
+      "run_at": "document_idle"
     }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rr.json"
+      }
+    ]
+  }
 }
